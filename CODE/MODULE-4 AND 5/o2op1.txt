@@ -1,0 +1,7 @@
+packaged_vegetables_fruits fresh_fruits
+yogurt fresh_fruits
+fresh_vegetables fresh_fruits
+packaged_vegetables_fruits fresh_vegetables
+fresh_fruits fresh_vegetables
+fresh_vegetables packaged_vegetables_fruits
+fresh_fruits packaged_vegetables_fruits

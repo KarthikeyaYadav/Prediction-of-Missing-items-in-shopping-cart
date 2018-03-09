@@ -1,0 +1,4 @@
+breakfast_bakery 50
+buns_rolls 30
+cookies_cakes 15
+tofu_meat_alternatives 60

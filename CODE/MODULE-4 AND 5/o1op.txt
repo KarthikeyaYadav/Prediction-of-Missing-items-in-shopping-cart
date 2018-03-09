@@ -1,0 +1,9 @@
+cookies_cakes chips_pretzels
+cleaning_products paper_goods   
+refrigerated crackers 
+spreads bread
+spreads crackers
+fresh_vegetables coffee
+fresh_vegetables frozen_produce  
+paper_goods cleaning_products   
+soy_lactosefree cereal

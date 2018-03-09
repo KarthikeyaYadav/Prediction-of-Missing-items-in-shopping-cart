@@ -1,0 +1,3 @@
+fresh_fruits fresh_vegetables packaged_vegetables_fruits
+fresh_vegetables packaged_vegetables_fruits fresh_fruits
+fresh_fruits packaged_vegetables_fruits fresh_vegetables

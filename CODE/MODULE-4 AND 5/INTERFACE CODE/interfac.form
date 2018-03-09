@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel3" min="-2" pref="419" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="50" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="57" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="jScrollPane1" min="-2" pref="340" max="-2" attributes="0"/>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jButton1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel7" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="quantity" min="-2" pref="174" max="-2" attributes="0"/>
+                              <Group type="102" attributes="0">
+                                  <Component id="jButton3" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                                  <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                                  <Component id="jTextField3" alignment="0" max="32767" attributes="0"/>
+                                  <Component id="itemname" alignment="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="69" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="52" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jTextField3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <Component id="itemname" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="quantity" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="31" max="32767" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="42" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="23" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="itemname">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="136">
+                <StringItem index="0" value="none"/>
+                <StringItem index="1" value="air_fresheners_candles"/>
+                <StringItem index="2" value="asian_foods"/>
+                <StringItem index="3" value="baby_accessories"/>
+                <StringItem index="4" value="baby_bath_body_care"/>
+                <StringItem index="5" value="baby_food_formula"/>
+                <StringItem index="6" value="bakery_desserts"/>
+                <StringItem index="7" value="baking_ingredients"/>
+                <StringItem index="8" value="baking_supplies_decor"/>
+                <StringItem index="9" value="beauty"/>
+                <StringItem index="10" value="beers_coolers"/>
+                <StringItem index="11" value="body_lotions_soap"/>
+                <StringItem index="12" value="bread"/>
+                <StringItem index="13" value="breakfast_bakery"/>
+                <StringItem index="14" value="breakfast_bars_pastries"/>
+                <StringItem index="15" value="bulk_dried_fruits_vegetables"/>
+                <StringItem index="16" value="bulk_grains_rice_dried_goods"/>
+                <StringItem index="17" value="buns_rolls"/>
+                <StringItem index="18" value="butter"/>
+                <StringItem index="19" value="candy_chocolate"/>
+                <StringItem index="20" value="canned_fruit_applesauce"/>
+                <StringItem index="21" value="canned_jarred_vegetables"/>
+                <StringItem index="22" value="canned_meals_beans"/>
+                <StringItem index="23" value="canned_meat_seafood"/>
+                <StringItem index="24" value="cat_food_care"/>
+                <StringItem index="25" value="cereal"/>
+                <StringItem index="26" value="chips_pretzels"/>
+                <StringItem index="27" value="cleaning_products"/>
+                <StringItem index="28" value="cocoa_drink_mixes"/>
+                <StringItem index="29" value="coffee"/>
+                <StringItem index="30" value="cold_flu_allergy"/>
+                <StringItem index="31" value="condiments"/>
+                <StringItem index="32" value="cookies_cakes"/>
+                <StringItem index="33" value="crackers"/>
+                <StringItem index="34" value="cream"/>
+                <StringItem index="35" value="deodorants"/>
+                <StringItem index="36" value="diapers_wipes"/>
+                <StringItem index="37" value="digestion"/>
+                <StringItem index="38" value="dish_detergents"/>
+                <StringItem index="39" value="dog_food_care"/>
+                <StringItem index="40" value="doughs_gelatins_bake_mixes"/>
+                <StringItem index="41" value="dry_pasta"/>
+                <StringItem index="42" value="eggs"/>
+                <StringItem index="43" value="energy_granola_bars"/>
+                <StringItem index="44" value="energy_sports_drinks"/>
+                <StringItem index="45" value="eye_ear_care"/>
+                <StringItem index="46" value="facial_care"/>
+                <StringItem index="47" value="feminine_care"/>
+                <StringItem index="48" value="first_aid"/>
+                <StringItem index="49" value="food_storage"/>
+                <StringItem index="50" value="fresh_dips_tapenades"/>
+                <StringItem index="51" value="fresh_fruits"/>
+                <StringItem index="52" value="fresh_herbs"/>
+                <StringItem index="53" value="fresh_pasta"/>
+                <StringItem index="54" value="fresh_vegetables"/>
+                <StringItem index="55" value="frozen_appetizers_sides"/>
+                <StringItem index="56" value="frozen_breads_doughs"/>
+                <StringItem index="57" value="frozen_breakfast"/>
+                <StringItem index="58" value="frozen_dessert"/>
+                <StringItem index="59" value="frozen_juice"/>
+                <StringItem index="60" value="frozen_meals"/>
+                <StringItem index="61" value="frozen_meat_seafood"/>
+                <StringItem index="62" value="frozen_pizza"/>
+                <StringItem index="63" value="frozen_produce"/>
+                <StringItem index="64" value="frozen_vegan_vegetarian"/>
+                <StringItem index="65" value="fruit_vegetable_snacks"/>
+                <StringItem index="66" value="grains_rice_dried_goods"/>
+                <StringItem index="67" value="granola"/>
+                <StringItem index="68" value="hair_care"/>
+                <StringItem index="69" value="honeys_syrups_nectars"/>
+                <StringItem index="70" value="hot_cereal_pancake_mixes"/>
+                <StringItem index="71" value="hot_dogs_bacon_sausage"/>
+                <StringItem index="72" value="ice_cream_ice"/>
+                <StringItem index="73" value="ice_cream_toppings"/>
+                <StringItem index="74" value="indian_foods"/>
+                <StringItem index="75" value="instant_foods"/>
+                <StringItem index="76" value="juice_nectars"/>
+                <StringItem index="77" value="kitchen_supplies"/>
+                <StringItem index="78" value="kosher_foods"/>
+                <StringItem index="79" value="latino_foods"/>
+                <StringItem index="80" value="laundry"/>
+                <StringItem index="81" value="lunch_meat"/>
+                <StringItem index="82" value="marinades_meat_preparation"/>
+                <StringItem index="83" value="meat_counter"/>
+                <StringItem index="84" value="milk"/>
+                <StringItem index="85" value="mint_gum"/>
+                <StringItem index="86" value="missing"/>
+                <StringItem index="87" value="more_household"/>
+                <StringItem index="88" value="muscles_joints_pain_relief"/>
+                <StringItem index="89" value="nuts_seeds_dried_fruit"/>
+                <StringItem index="90" value="oils_vinegars"/>
+                <StringItem index="91" value="oral_hygiene"/>
+                <StringItem index="92" value="other"/>
+                <StringItem index="93" value="other_creams_cheeses"/>
+                <StringItem index="94" value="packaged_cheese"/>
+                <StringItem index="95" value="packaged_meat"/>
+                <StringItem index="96" value="packaged_poultry"/>
+                <StringItem index="97" value="packaged_produce"/>
+                <StringItem index="98" value="packaged_seafood"/>
+                <StringItem index="99" value="packaged_vegetables_fruits"/>
+                <StringItem index="100" value="paper_goods"/>
+                <StringItem index="101" value="pasta_sauce"/>
+                <StringItem index="102" value="pickled_goods_olives"/>
+                <StringItem index="103" value="plates_bowls_cups_flatware"/>
+                <StringItem index="104" value="popcorn_jerky"/>
+                <StringItem index="105" value="poultry_counter"/>
+                <StringItem index="106" value="prepared_meals"/>
+                <StringItem index="107" value="prepared_soups_salads"/>
+                <StringItem index="108" value="preserved_dips_spreads"/>
+                <StringItem index="109" value="protein_meal_replacements"/>
+                <StringItem index="110" value="red_wines"/>
+                <StringItem index="111" value="refrigerated"/>
+                <StringItem index="112" value="refrigerated_pudding_desserts"/>
+                <StringItem index="113" value="salad_dressing_toppings"/>
+                <StringItem index="114" value="seafood_counter"/>
+                <StringItem index="115" value="shave_needs"/>
+                <StringItem index="116" value="skin_care"/>
+                <StringItem index="117" value="soap"/>
+                <StringItem index="118" value="soft_drinks"/>
+                <StringItem index="119" value="soup_broth_bouillon"/>
+                <StringItem index="120" value="soy_lactosefree"/>
+                <StringItem index="121" value="specialty_cheeses"/>
+                <StringItem index="122" value="specialty_wines_champagnes"/>
+                <StringItem index="123" value="spices_seasonings"/>
+                <StringItem index="124" value="spirits"/>
+                <StringItem index="125" value="spreads"/>
+                <StringItem index="126" value="tea"/>
+                <StringItem index="127" value="tofu_meat_alternatives"/>
+                <StringItem index="128" value="tortillas_flat_bread"/>
+                <StringItem index="129" value="trail_mix_snack_mix"/>
+                <StringItem index="130" value="trash_bags_liners"/>
+                <StringItem index="131" value="vitamins_supplements"/>
+                <StringItem index="132" value="water_seltzer_sparkling_water"/>
+                <StringItem index="133" value="white_wines"/>
+                <StringItem index="134" value="yogurt"/>
+                <StringItem index="135" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Item Name      :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Quantity         :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="quantity">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Enter Item"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="New Transaction"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Predict"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextField1">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Customer Id :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="jTextField3">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField3ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane2" pref="685" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  <Component id="jLabel3" min="-2" pref="65" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="jTextField2" min="-2" pref="209" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jScrollPane2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jTextField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="51" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="mdl">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="0">
+                    <Column editable="true" title="Item Name" type="java.lang.Object"/>
+                    <Column editable="true" title="Quantity" type="java.lang.Object"/>
+                    <Column editable="true" title="Price" type="java.lang.Object"/>
+                    <Column editable="true" title="Net cost" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+                <Property name="columnModel" type="javax.swing.table.TableColumnModel" editor="org.netbeans.modules.form.editors2.TableColumnModelEditor">
+                  <TableColumnModel selectionModel="0">
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                    <Column maxWidth="-1" minWidth="-1" prefWidth="-1" resizable="true">
+                      <Title/>
+                      <Editor/>
+                      <Renderer/>
+                    </Column>
+                  </TableColumnModel>
+                </Property>
+                <Property name="tableHeader" type="javax.swing.table.JTableHeader" editor="org.netbeans.modules.form.editors2.JTableHeaderEditor">
+                  <TableHeader reorderingAllowed="true" resizingAllowed="true"/>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JTextField" name="jTextField2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Total Cost:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="61" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="itemname1" alignment="0" max="32767" attributes="0"/>
+                              <Component id="quantity1" alignment="0" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jScrollPane3" min="-2" pref="340" max="-2" attributes="0"/>
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="113" max="-2" attributes="0"/>
+                          <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jLabel6" min="-2" pref="401" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Component id="jLabel6" min="-2" pref="26" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="itemname1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel4" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="quantity1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="35" max="-2" attributes="0"/>
+                  <Component id="jButton4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jScrollPane3" min="-2" pref="42" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JComboBox" name="itemname1">
+          <Properties>
+            <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+              <StringArray count="136">
+                <StringItem index="0" value="none"/>
+                <StringItem index="1" value="air_fresheners_candles"/>
+                <StringItem index="2" value="asian_foods"/>
+                <StringItem index="3" value="baby_accessories"/>
+                <StringItem index="4" value="baby_bath_body_care"/>
+                <StringItem index="5" value="baby_food_formula"/>
+                <StringItem index="6" value="bakery_desserts"/>
+                <StringItem index="7" value="baking_ingredients"/>
+                <StringItem index="8" value="baking_supplies_decor"/>
+                <StringItem index="9" value="beauty"/>
+                <StringItem index="10" value="beers_coolers"/>
+                <StringItem index="11" value="body_lotions_soap"/>
+                <StringItem index="12" value="bread"/>
+                <StringItem index="13" value="breakfast_bakery"/>
+                <StringItem index="14" value="breakfast_bars_pastries"/>
+                <StringItem index="15" value="bulk_dried_fruits_vegetables"/>
+                <StringItem index="16" value="bulk_grains_rice_dried_goods"/>
+                <StringItem index="17" value="buns_rolls"/>
+                <StringItem index="18" value="butter"/>
+                <StringItem index="19" value="candy_chocolate"/>
+                <StringItem index="20" value="canned_fruit_applesauce"/>
+                <StringItem index="21" value="canned_jarred_vegetables"/>
+                <StringItem index="22" value="canned_meals_beans"/>
+                <StringItem index="23" value="canned_meat_seafood"/>
+                <StringItem index="24" value="cat_food_care"/>
+                <StringItem index="25" value="cereal"/>
+                <StringItem index="26" value="chips_pretzels"/>
+                <StringItem index="27" value="cleaning_products"/>
+                <StringItem index="28" value="cocoa_drink_mixes"/>
+                <StringItem index="29" value="coffee"/>
+                <StringItem index="30" value="cold_flu_allergy"/>
+                <StringItem index="31" value="condiments"/>
+                <StringItem index="32" value="cookies_cakes"/>
+                <StringItem index="33" value="crackers"/>
+                <StringItem index="34" value="cream"/>
+                <StringItem index="35" value="deodorants"/>
+                <StringItem index="36" value="diapers_wipes"/>
+                <StringItem index="37" value="digestion"/>
+                <StringItem index="38" value="dish_detergents"/>
+                <StringItem index="39" value="dog_food_care"/>
+                <StringItem index="40" value="doughs_gelatins_bake_mixes"/>
+                <StringItem index="41" value="dry_pasta"/>
+                <StringItem index="42" value="eggs"/>
+                <StringItem index="43" value="energy_granola_bars"/>
+                <StringItem index="44" value="energy_sports_drinks"/>
+                <StringItem index="45" value="eye_ear_care"/>
+                <StringItem index="46" value="facial_care"/>
+                <StringItem index="47" value="feminine_care"/>
+                <StringItem index="48" value="first_aid"/>
+                <StringItem index="49" value="food_storage"/>
+                <StringItem index="50" value="fresh_dips_tapenades"/>
+                <StringItem index="51" value="fresh_fruits"/>
+                <StringItem index="52" value="fresh_herbs"/>
+                <StringItem index="53" value="fresh_pasta"/>
+                <StringItem index="54" value="fresh_vegetables"/>
+                <StringItem index="55" value="frozen_appetizers_sides"/>
+                <StringItem index="56" value="frozen_breads_doughs"/>
+                <StringItem index="57" value="frozen_breakfast"/>
+                <StringItem index="58" value="frozen_dessert"/>
+                <StringItem index="59" value="frozen_juice"/>
+                <StringItem index="60" value="frozen_meals"/>
+                <StringItem index="61" value="frozen_meat_seafood"/>
+                <StringItem index="62" value="frozen_pizza"/>
+                <StringItem index="63" value="frozen_produce"/>
+                <StringItem index="64" value="frozen_vegan_vegetarian"/>
+                <StringItem index="65" value="fruit_vegetable_snacks"/>
+                <StringItem index="66" value="grains_rice_dried_goods"/>
+                <StringItem index="67" value="granola"/>
+                <StringItem index="68" value="hair_care"/>
+                <StringItem index="69" value="honeys_syrups_nectars"/>
+                <StringItem index="70" value="hot_cereal_pancake_mixes"/>
+                <StringItem index="71" value="hot_dogs_bacon_sausage"/>
+                <StringItem index="72" value="ice_cream_ice"/>
+                <StringItem index="73" value="ice_cream_toppings"/>
+                <StringItem index="74" value="indian_foods"/>
+                <StringItem index="75" value="instant_foods"/>
+                <StringItem index="76" value="juice_nectars"/>
+                <StringItem index="77" value="kitchen_supplies"/>
+                <StringItem index="78" value="kosher_foods"/>
+                <StringItem index="79" value="latino_foods"/>
+                <StringItem index="80" value="laundry"/>
+                <StringItem index="81" value="lunch_meat"/>
+                <StringItem index="82" value="marinades_meat_preparation"/>
+                <StringItem index="83" value="meat_counter"/>
+                <StringItem index="84" value="milk"/>
+                <StringItem index="85" value="mint_gum"/>
+                <StringItem index="86" value="missing"/>
+                <StringItem index="87" value="more_household"/>
+                <StringItem index="88" value="muscles_joints_pain_relief"/>
+                <StringItem index="89" value="nuts_seeds_dried_fruit"/>
+                <StringItem index="90" value="oils_vinegars"/>
+                <StringItem index="91" value="oral_hygiene"/>
+                <StringItem index="92" value="other"/>
+                <StringItem index="93" value="other_creams_cheeses"/>
+                <StringItem index="94" value="packaged_cheese"/>
+                <StringItem index="95" value="packaged_meat"/>
+                <StringItem index="96" value="packaged_poultry"/>
+                <StringItem index="97" value="packaged_produce"/>
+                <StringItem index="98" value="packaged_seafood"/>
+                <StringItem index="99" value="packaged_vegetables_fruits"/>
+                <StringItem index="100" value="paper_goods"/>
+                <StringItem index="101" value="pasta_sauce"/>
+                <StringItem index="102" value="pickled_goods_olives"/>
+                <StringItem index="103" value="plates_bowls_cups_flatware"/>
+                <StringItem index="104" value="popcorn_jerky"/>
+                <StringItem index="105" value="poultry_counter"/>
+                <StringItem index="106" value="prepared_meals"/>
+                <StringItem index="107" value="prepared_soups_salads"/>
+                <StringItem index="108" value="preserved_dips_spreads"/>
+                <StringItem index="109" value="protein_meal_replacements"/>
+                <StringItem index="110" value="red_wines"/>
+                <StringItem index="111" value="refrigerated"/>
+                <StringItem index="112" value="refrigerated_pudding_desserts"/>
+                <StringItem index="113" value="salad_dressing_toppings"/>
+                <StringItem index="114" value="seafood_counter"/>
+                <StringItem index="115" value="shave_needs"/>
+                <StringItem index="116" value="skin_care"/>
+                <StringItem index="117" value="soap"/>
+                <StringItem index="118" value="soft_drinks"/>
+                <StringItem index="119" value="soup_broth_bouillon"/>
+                <StringItem index="120" value="soy_lactosefree"/>
+                <StringItem index="121" value="specialty_cheeses"/>
+                <StringItem index="122" value="specialty_wines_champagnes"/>
+                <StringItem index="123" value="spices_seasonings"/>
+                <StringItem index="124" value="spirits"/>
+                <StringItem index="125" value="spreads"/>
+                <StringItem index="126" value="tea"/>
+                <StringItem index="127" value="tofu_meat_alternatives"/>
+                <StringItem index="128" value="tortillas_flat_bread"/>
+                <StringItem index="129" value="trail_mix_snack_mix"/>
+                <StringItem index="130" value="trash_bags_liners"/>
+                <StringItem index="131" value="vitamins_supplements"/>
+                <StringItem index="132" value="water_seltzer_sparkling_water"/>
+                <StringItem index="133" value="white_wines"/>
+                <StringItem index="134" value="yogurt"/>
+                <StringItem index="135" value=" "/>
+              </StringArray>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Item Name      :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Quantity         :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JSpinner" name="quantity1">
+          <Properties>
+            <Property name="model" type="javax.swing.SpinnerModel" editor="org.netbeans.modules.form.editors2.SpinnerModelEditor">
+              <SpinnerModel initial="0" numberType="java.lang.Integer" stepSize="1" type="number"/>
+            </Property>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Delete Item"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane3">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTextArea" name="jTextField4">
+              <Properties>
+                <Property name="columns" type="int" value="20"/>
+                <Property name="rows" type="int" value="5"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Delete Form: -----------------------------------------------------------------------------"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

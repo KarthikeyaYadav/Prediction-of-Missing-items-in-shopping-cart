@@ -1,0 +1,5 @@
+packaged_vegetables_fruits fresh_fruits
+fresh_vegetables fresh_fruits
+milk fresh_fruits
+packaged_cheese fresh_fruits
+water_seltzer_sparkling_water fresh_fruits
